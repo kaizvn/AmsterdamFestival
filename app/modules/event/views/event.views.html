@@ -1,0 +1,22 @@
+<div id="events" class="text-muted" ng-show="events.length">
+	<div class="container ">
+		<div class="row">
+			<a ng-repeat="ev in events" id="{{ev.id}}"
+			   ui-sref="event.detail({id : ev.id, pid: ev.poiId})"
+			   ui-sref-active="active"
+			   class="card col-md-2 col-xs-6"
+			   ng-class="{'col-md-offset-1' : isNewRow($index) }">
+				<span class="badge">{{$index + 1}}</span>
+				<div class="thumbnail">
+					<div class="text-center">
+						<h6>
+							<span class="">{{ev.title}}</span>
+						</h6>
+					</div>
+				</div>
+			</a>
+		</div>
+		<ui-view></ui-view>
+	</div>
+</div>
+

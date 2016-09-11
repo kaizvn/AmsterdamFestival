@@ -1,0 +1,121 @@
+#map-container .angular-google-map-container {
+    height: inherit;
+    display: block;
+    min-height: 30rem;
+}
+
+#poi-description {
+    padding: 1rem 0 2rem 0;
+}
+
+.event .panel {
+    min-height: 45rem;
+}
+
+.badge {
+    background-color: #5cb85c;
+    position: absolute;
+    left: 0;
+    top: -0.5rem;
+}
+
+#events .thumbnail {
+    margin-bottom: 1rem;
+}
+
+.card.active .badge {
+    background-color: #fff;
+    color: #5cb85c;
+}
+
+.card.active .thumbnail {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+#events a {
+    text-decoration: none;
+}
+
+body {
+    min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-collapse .container-fluid {
+    padding: 2rem 2.5rem;
+    border-bottom: 1px solid #55595c;
+}
+
+.navbar-collapse h4 {
+    color: #818a91;
+}
+
+.navbar-collapse .text-muted {
+    color: #818a91;
+}
+
+.about {
+    float: left;
+    max-width: 30rem;
+    margin-right: 3rem;
+}
+
+.social a {
+    font-weight: 500;
+    color: #eceeef;
+}
+
+.social a:hover {
+    color: #fff;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+#events {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
+}
+
+.card {
+    padding: 0 0.5rem;
+    border: 0;
+}
+
+.card > img {
+    margin-bottom: .75rem;
+}
+
+.card-text {
+    font-size: 85%;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}

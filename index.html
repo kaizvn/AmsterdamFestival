@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Title</title>
+	<link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css"/>
+	<link href="./css/main.css" rel="stylesheet"/>
+	<style>
+		.ng-cloak {
+			display: none;
+		}
+
+	</style>
+</head>
+
+<body class="ng-cloak">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">Hello there!</a>
+		</div>
+	</div>
+</nav>
+
+
+<section class="jumbotron text-xs-center">
+	<div class="container">
+		<h1 class="jumbotron-heading">Amsterdam Festivals</h1>
+		<p class="lead text-muted">
+			Real-time festival list at Amsterdam, includes their information.
+		</p>
+	</div>
+</section>
+
+<ui-view></ui-view>
+
+
+<footer class="text-muted">
+	<div class="container">
+		<p>Amsterdam festival was built for testing purpose.</p>
+		<p> Wanna know more about me? check out my <a href="https://vn.linkedin.com/in/kaing">Linkedin</a> or my <a href="http://github.com/kaizvn">GitHub</a>.</p>
+	</div>
+</footer>
+
+<!-- import JS libs -->
+<script type="text/javascript" src="./lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="./lib/lodash/lodash.js"></script>
+<script type="text/javascript" src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./lib/angular/angular.min.js"></script>
+<script type="text/javascript" src="./lib/angular-sanitize/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="./lib/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
+<script type="text/javascript" src="./lib/angular-google-maps/dist/angular-google-maps.min.js"></script>
+<script type="text/javascript" src="./lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="./lib/angular-animate/angular-animate.min.js"></script>
+<script type="text/javascript" src="./lib/angular-local-storage/dist/angular-local-storage.min.js"></script>
+<script type="text/javascript" src="./lib/angular-resource/angular-resource.min.js"></script>
+
+<!-- core -->
+<script type="text/javascript" src="./app/modules/main/config.js"></script>
+<script type="text/javascript" src="./app/modules/main/main.init.js"></script>
+
+<!-- utils -->
+<script type="text/javascript" src="./app/modules/utils/model.utils.js"></script>
+<!-- init modules-->
+<script type="text/javascript" src="app/modules/event/event.init.js"></script>
+<!-- angular services --->
+<script type="text/javascript" src="./app/services/api.services.js"></script>
+<script type="text/javascript" src="./app/services/city.services.js"></script>
+<!-- angular models --->
+<script type="text/javascript" src="app/modules/event/models/event.resource.model.js"></script>
+<script type="text/javascript" src="app/modules/event/models/poi.resource.model.js"></script>
+<!-- angular controller--->
+<script type="text/javascript" src="app/modules/event/controllers/event.controller.js"></script>
+<script type="text/javascript" src="app/modules/event/controllers/detail.controller.js"></script>
+
+</body>
+</html>

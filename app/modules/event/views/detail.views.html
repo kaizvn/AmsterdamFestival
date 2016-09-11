@@ -1,0 +1,25 @@
+<div class="row col-md-10 col-md-offset-1">
+	<div class="text-muted panel panel-default">
+		<div class="panel-body">
+			<div id="poi-description">
+				<p ng-bind-html="detail.description | unsafeHTML" class="card-text"></p>
+				<br/>
+				<i ng-bind-html="detail.secondaryDescription | unsafeHTML" class="card-text text-right"></i>
+			</div>
+
+			<div id="map-container" ng-show="detail.map.markers.length">
+				<ui-gmap-google-map center="detail.map.center" zoom="detail.map.zoom">
+					<ui-gmap-markers models="detail.map.markers" events="'self'" options="'self'" show="'true'"
+									 idKey="'id'" coords="'location.coords'" fit="true">
+						<ui-gmap-windows show="'showWindow'" closeClick="'closeClick'" ng-cloak>
+							<div ng-non-bindable>
+								<h6>{{title}}</h6>
+								<p>{{description}}</p>
+							</div>
+						</ui-gmap-windows>
+					</ui-gmap-markers>
+				</ui-gmap-google-map>
+			</div>
+		</div>
+	</div>
+</div>
