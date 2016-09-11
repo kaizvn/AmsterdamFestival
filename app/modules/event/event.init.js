@@ -21,7 +21,7 @@
 		}
 	]).filter('unsafeHTML', function ($sce) {
 		return function (val) {
-			// &#65533; is  iso-8859-1 charset, this is manually convert it
+			// &#65533; is iso-8859-1 charset, this is manually convert it to ' character
 			return $sce.trustAsHtml((val || '')
 				.replace(/&#65533;/g, "'"));
 		}

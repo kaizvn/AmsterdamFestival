@@ -1,29 +1,30 @@
 {
   "name": "FestivalArmsterdam",
+  "homepage": "https://github.com/kaizvn/AmsterdamFestival",
   "authors": [
     "kaizvn <hungnh1704@gmail.com>"
   ],
-  "description": "Libraries to develop this app",
+  "description": "a testing project for backbase",
   "main": "",
   "license": "MIT",
-  "homepage": "",
   "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "lib/",
     "test",
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "angular": "angularjs#^1.5.8",
-    "lodash": "^4.15.0",
-    "socket.io": "^1.4.8",
-    "angular-ui-router": "^0.3.1",
-    "angular-animate": "^1.5.8",
     "angular-local-storage": "^0.5.0",
+    "angular-google-maps": "^2.3.4",
+    "angular-animate": "^1.5.8",
     "angular-resource": "^1.5.8",
-    "holderjs": "holder.js#^2.9.4"
+    "angular-sanitize": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7",
+    "lodash": "^4.15.0",
+    "angular-simple-logger": "^0.1.7"
   }
 }

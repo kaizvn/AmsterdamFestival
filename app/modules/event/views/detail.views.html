@@ -7,7 +7,7 @@
 				<i ng-bind-html="detail.secondaryDescription | unsafeHTML" class="card-text text-right"></i>
 			</div>
 
-			<div id="map-container" ng-show="detail.map.markers.length">
+			<div id="map-container">
 				<ui-gmap-google-map center="detail.map.center" zoom="detail.map.zoom">
 					<ui-gmap-markers models="detail.map.markers" events="'self'" options="'self'" show="'true'"
 									 idKey="'id'" coords="'location.coords'" fit="true">

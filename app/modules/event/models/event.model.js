@@ -1,9 +1,4 @@
-/**
- * Created by KaiNguyen on 9/12/16.
- */
-
-// remember to config default language
-
+'use strict';
 (function () {
 	function eventModel(modelUtils, cityService, $resource) {
 		// EventModel constructor

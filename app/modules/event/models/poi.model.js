@@ -1,4 +1,4 @@
-// remember to config default language
+'use strict';
 
 (function () {
 	function poiModel(modelUtils, cityService) {
@@ -14,6 +14,7 @@
 			this.transformStatus(data.time || []);
 		}
 
+		// behaviour of POIModel
 		POIModel.prototype.transformDescription = function (data) {
 			var self = this;
 			// clear description;

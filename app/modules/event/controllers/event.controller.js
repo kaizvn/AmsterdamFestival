@@ -37,6 +37,8 @@
 
 		$scope.loadEvents();
 
+
+		// I heard citySDK is real-time and I try to make mine near-real-time also :D.
 		$interval(function () {
 			console.log('reload data');
 			$scope.loadEvents();
