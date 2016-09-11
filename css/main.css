@@ -119,3 +119,7 @@ footer {
 footer p {
     margin-bottom: .25rem;
 }
+
+.ng-cloak {
+    display: none;
+}
