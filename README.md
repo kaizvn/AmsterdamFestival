@@ -1,5 +1,5 @@
 # AmsterdamFestival
-- A testing project from Backbase. 
+- A testing project from Backbase.
 - Test code: FE exercise2.6
 
 ## Getting start
@@ -8,8 +8,7 @@
     ```
     $ bower i
     ```
-- (*) running by open `index.html` meet `Cross origin requests`, I just test by open index.html on webstorm. If you meet any problem just feel free to tell me to fix it.
+- (*) Running by open `index.html` meets `Cross origin requests`, I'd just tested by open `index.html` bt `Webstorm IDE`. If you meet any problems just feel free to tell me, I'll try to fix it ASAP.
 
 
-Thanks for send me this test, it really helps.
-
+It has been year I did not work with angular 1.x, thanks for send me this test, it really helps.
