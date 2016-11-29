@@ -1,6 +1,5 @@
 # AmsterdamFestival
-- A testing project from Backbase.
-- Test code: FE exercise2.6
+- Re-check my angular skill, but seem it failed xD!
 
 ## Getting start
 - install dependencies by bower
